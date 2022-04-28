@@ -44,5 +44,5 @@ const team = [
       console.log(userInfo.name, userInfo.role, userInfo.image);
   
       const print = document.getElementById("infoTeam");
-      print.innerHTML += `<img src="img/${userInfo.image}"> <br> ${"Name: "} ${userInfo.name} <br> ${"Role: "} ${userInfo.role} <br><hr>`;
+      print.innerHTML += `<img src="img/${userInfo.image}"> <br> ${"Name: "} ${userInfo.name} <br> ${"Role: "} ${userInfo.role} <br>`;
   }
